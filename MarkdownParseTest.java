@@ -45,7 +45,7 @@ public class MarkdownParseTest {
     @Test
     public void getLinks4() throws IOException{
         ArrayList<String> str = new ArrayList<String>();
-        Path fileName = Path.of("C:/Users/redli/Downloads/markdown-parser/test-file4.md");
+        Path fileName = Path.of("C:/Users/redli/OneDrive/Documents/GitHub/markdown-parser/test-file4.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(content);
         assertEquals(str, links);
@@ -55,7 +55,7 @@ public class MarkdownParseTest {
     public void getLinks5() throws IOException{
         ArrayList<String> str = new ArrayList<String>();
         str.add("page.com");
-        Path fileName = Path.of("C:/Users/redli/Downloads/markdown-parser/test-file5.md");
+        Path fileName = Path.of("C:/Users/redli/OneDrive/Documents/GitHub/markdown-parser/test-file5.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(content);
         assertEquals(str, links);
@@ -64,7 +64,7 @@ public class MarkdownParseTest {
     @Test
     public void getLinks6() throws IOException{
         ArrayList<String> str = new ArrayList<String>();
-        Path fileName = Path.of("C:/Users/redli/Downloads/markdown-parser/test-file6.md");
+        Path fileName = Path.of("C:/Users/redli/OneDrive/Documents/GitHub/markdown-parser/test-file6.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(content);
         assertEquals(str, links);
@@ -73,7 +73,7 @@ public class MarkdownParseTest {
     @Test
     public void getLinks7() throws IOException{
         ArrayList<String> str = new ArrayList<String>();
-        Path fileName = Path.of("C:/Users/redli/Downloads/markdown-parser/test-file7.md");
+        Path fileName = Path.of("C:/Users/redli/OneDrive/Documents/GitHub/markdown-parser/test-file7.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(content);
         assertEquals(str, links);
@@ -82,7 +82,7 @@ public class MarkdownParseTest {
     @Test
     public void getLinks8() throws IOException{
         ArrayList<String> str = new ArrayList<String>();
-        Path fileName = Path.of("C:/Users/redli/Downloads/markdown-parser/test-file8.md");
+        Path fileName = Path.of("C:/Users/redli/OneDrive/Documents/GitHub/markdown-parser/test-file8.md");
         String content = Files.readString(fileName);
         ArrayList<String> links = MarkdownParse.getLinks(content);
         assertEquals(str, links);
