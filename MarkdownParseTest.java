@@ -79,12 +79,4 @@ public class MarkdownParseTest {
         assertEquals(str, links);
     }
     
-    @Test
-    public void getLinks8() throws IOException{
-        ArrayList<String> str = new ArrayList<String>();
-        Path fileName = Path.of("C:/Users/redli/OneDrive/Documents/GitHub/markdown-parser/test-file8.md");
-        String content = Files.readString(fileName);
-        ArrayList<String> links = MarkdownParse.getLinks(content);
-        assertEquals(str, links);
-    }
 }
