@@ -1,7 +1,6 @@
 //https://howtodoinjava.com/java/io/java-read-file-to-string-examples/
 
-import static org.junit.Assert.*;
-import org.junit.*;
+
 import java.util.*;
 import java.io.IOException;
 import java.nio.file.Files;
