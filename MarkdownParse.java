@@ -28,13 +28,13 @@ public class MarkdownParse {
             if(closeParen == -1){
                 break;
             }
-            if(openBracket-1 < 0){
+           /* if(openBracket-1 < 0){
                 break;
             }
             if(markdown.substring(openBracket-1, openBracket).equals("!")){
                 currentIndex = closeParen + 1;
                 continue;
-            }
+            }*/
             toReturn.add(markdown.substring(openParen + 1, closeParen));
             currentIndex = closeParen + 1;
 
